@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>signup</title>
+<link rel="stylesheet" href="./css/login-signup.css" />
+<script src = "./js/signup.js"></script>
+</head>
+<body>
+<div id="container">
+  <div id="header">
+    <h1>Welcome to Anonymously!</h1>
+    <h2>Get your sharable link</h2>
+  </div>
+  
+  <div id="login-signup-form">
+    <h3>Signup</h3>
+    <form>
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+      </div>
+      <br />
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+      </div>
+      <br />
+      
+      <!-- Only show the "Confirm Password" field for the signup form -->
+      <div id="confirmPasswordContainer">
+        <label for="confirmPassword">Confirm Password:</label>
+        <input
+          type="password"
+          id="confirmPassword"
+          name="confirmPassword"
+          required
+        />
+      </div>
+      <br />
+      
+      <div>
+        <input type="submit" value="Signup" />
+      </div>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>

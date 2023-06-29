@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./css/dashboard.css" />
+    <script src="./js/dashboard.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <div class="brand">Anonymously Dashboard</div>
+          <button class="logout-btn">Logout</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <h2>Welcome to Anonymously Dashboard</h2>
+        <div class="link-section">
+          <p>Here is your shareable link:</p>
+          <input type="text" id="shareable-link" readonly />
+          <button id="copy-link-btn">Copy</button>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Messages</h2>
+        <div id="messages"></div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+@charset "ISO-8859-1";
+
+body {
+  background-color: #f2f2f2;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #3333FF;
+  color: #ffffff;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.logout-btn {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #FFBB33;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  margin-left: auto;
+}
+
+.logout-btn:hover {
+  background-color: #FF5555;
+}
+
+main {
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #3333FF;
+  margin-bottom: 10px;
+}
+
+.link-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#shareable-link {
+  padding: 5px;
+  margin-right: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #3333FF;
+}
+
+#copy-link-btn {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #FFBB33;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+#copy-link-btn:hover {
+  background-color: #FF5555;
+}
+
+#messages {
+  border: 1px solid #3333FF;
+  padding: 10px;
+}

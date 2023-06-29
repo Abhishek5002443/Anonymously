@@ -1,0 +1,105 @@
+@charset "ISO-8859-1";
+
+@charset "ISO-8859-1";
+
+body {
+  background-color: #f2f2f2;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 20px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#login-signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #FF5555;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #3333FF;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 16px;
+  color: #3333FF;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #3333FF;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #FFBB33;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #FF5555;
+}
+
+/* Responsive Styles */
+@media only screen and (min-width: 768px) {
+  #header {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #login-signup-form {
+    align-items: center;
+    text-align: center;
+  }
+}
